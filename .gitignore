@@ -1,0 +1,14 @@
+# Node modules
+node_modules
+
+# React build
+dist
+
+# Java build
+target
+
+# VSCode
+.vscode
+
+# Logs
+*.log
