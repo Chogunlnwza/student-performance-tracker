@@ -68,3 +68,78 @@ The included `vercel.json` handles the routing, ensuring that the React SPA (Sin
 
 ---
 *Developed by Chogunlnwza*
+
+<br />
+
+---
+
+# Student Performance Tracker 🎓 (ภาษาไทย)
+
+แอปพลิเคชันบนเว็บที่ออกแบบมาให้มีความทันสมัยและตอบสนองได้ดีเยี่ยม สำหรับการติดตามงานที่มอบหมาย ผลการเรียน และคะแนนของนักเรียน สร้างขึ้นด้วย Frontend จาก React (Vite) และ Backend จาก Express.js โดดเด่นด้วย UI ระดับพรีเมียมพร้อมเอฟเฟกต์ Glassmorphism และแอนิเมชันที่ลื่นไหล
+
+## 🌟 ฟีเจอร์หลัก
+
+- **UI/UX ทันสมัย**: ดีไซน์ระดับพรีเมียมและรองรับทุกขนาดหน้าจอ (Responsive) พัฒนาด้วย Tailwind CSS v4 พร้อมเอฟเฟกต์ Glassmorphism รูปแบบตัวอักษรที่สวยงาม และแอนิเมชันแบบ Interactive
+- **ระบบตามบทบาทผู้ใช้**:
+  - **คุณครู**: สามารถสร้างงานใหม่, ดูการส่งงานของนักเรียนทุกคน, ตรวจให้คะแนนพร้อมข้อความแนะนำ และติดตามผลการเรียนรวมของนักเรียนได้
+  - **นักเรียน**: สามารถดูงานที่ต้องทำ, ส่งการบ้านพร้อมข้อความส่วนตัว และตรวจสอบคะแนนของตนเองได้
+- **แดชบอร์ดแบบ Interactive**: นำเสนอข้อมูลแบบเรียลไทม์ด้วย Recharts เพื่อแสดงตัวชี้วัดประสิทธิภาพและความก้าวหน้าของนักเรียน
+- **RESTful API**: ระบบ Backend เฉพาะกิจที่สร้างด้วย Node.js และ Express.js สำหรับจัดการวงจรชีวิตของงาน (สร้าง, ส่ง, ให้คะแนน, ลบ)
+
+## 🛠️ เทคโนโลยีที่ใช้
+
+**ฝั่งหน้าบ้าน (Frontend)**
+- React 19
+- Vite
+- Tailwind CSS v4
+- React Router DOM
+- Recharts (สำหรับการสร้างกราฟ)
+- Axios & React Hot Toast
+
+**ฝั่งหลังบ้าน (Backend)**
+- Node.js
+- Express.js
+- CORS
+
+**การนำระบบขึ้นเซิร์ฟเวอร์ (Deployment)**
+- Vercel (ไฟล์ Static สำหรับ Frontend + Serverless API Functions สำหรับ Backend)
+
+## 🚀 การเริ่มต้นใช้งาน
+
+### สิ่งที่ต้องมี
+- [Node.js](https://nodejs.org/) ติดตั้งบนเครื่องของคุณ
+
+### สำหรับนักพัฒนา (Local Development)
+
+1. **โคลน Repository**
+   ```bash
+   git clone https://github.com/Chogunlnwza/student-performance-tracker.git
+   cd student-performance-tracker
+   ```
+
+2. **เปิดการทำงาน Backend API**
+   ```bash
+   # เปิดหน้าต่าง Terminal ขึ้นมาใหม่
+   npm install   # (รันคำสั่งนี้เพื่อติดตั้งเครื่องมือที่จำเป็น)
+   npm start     # เริ่มการทำงาน Express server บนพอร์ต 3000
+   ```
+
+3. **เปิดการทำงาน Frontend Application**
+   ```bash
+   # เปิดหน้าต่าง Terminal อีกอันขึ้นมา
+   cd frontend
+   npm install
+   npm run dev   # เริ่มการทำงาน Vite development server
+   ```
+
+## 🌐 การนำระบบขึ้น Vercel
+
+โปรเจกต์นี้ได้รับการตั้งค่าล่วงหน้าเพื่อให้พร้อมสำหรับการ Deploy ขึ้น **Vercel** อย่างราบรื่น
+ไฟล์ `vercel.json` จะรับหน้าที่จัดการเรื่อง Routing เพื่อให้ React SPA (Single Page Application) สามารถทำงานควบคู่กับ Express API ได้อย่างสมบูรณ์
+
+- Frontend จะถูก Build ด้วยคำสั่ง `@vercel/static-build`
+- Backend API (`api/index.js`) จะถูก Deploy เป็น Vercel Serverless Functions โดยอัตโนมัติ และเรียกใช้งานผ่าน Endpoint `/api/*`
+- กฎของ Routing และหน้า Fallback ทั้งหมดจะถูกจัดการโดยอัตโนมัติเพื่อให้ทำงานร่วมกับ React Router ได้อย่างไร้รอยต่อ
+
+---
+*พัฒนาโดย Chogunlnwza*
