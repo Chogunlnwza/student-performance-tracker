@@ -67,7 +67,7 @@ The included `vercel.json` handles the routing, ensuring that the React SPA (Sin
 - All routing and fallback rules are handled automatically for React Router.
 
 ---
-*Developed by Chogunlnwza*
+*Developed by Panuwit*
 
 <br />
 
@@ -142,4 +142,4 @@ The included `vercel.json` handles the routing, ensuring that the React SPA (Sin
 - กฎของ Routing และหน้า Fallback ทั้งหมดจะถูกจัดการโดยอัตโนมัติเพื่อให้ทำงานร่วมกับ React Router ได้อย่างไร้รอยต่อ
 
 ---
-*พัฒนาโดย Chogunlnwza*
+*พัฒนาโดย Panuwit*
