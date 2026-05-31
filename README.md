@@ -1,7 +1,13 @@
 # Student Performance Tracker 🎓
 
 🌐 **Live Demo:** [https://student-performance-tracker-pearl.vercel.app/](https://student-performance-tracker-pearl.vercel.app/)
-A modern, responsive web application designed for tracking student assignments, performance, and grades. Built with a React (Vite) frontend and an Express.js backend, featuring a premium UI with glassmorphism and smooth animations.
+<div align="center">A modern, responsive web application designed for tracking student assignments, performance, and grades. Built with a React (Vite) frontend and an Express.js backend, featuring a premium UI with glassmorphism and smooth animations.</p>
+<a href="#english">English</a> | <a href="#ภาษาไทย">ภาษาไทย</a>
+</div>
+
+---
+
+<h2 id="english">English Version</h2>
 
 ## 🌟 Features
 
@@ -74,6 +80,7 @@ The included `vercel.json` handles the routing, ensuring that the React SPA (Sin
 
 ---
 
+<h2 id="ภาษาไทย">ภาษาไทย</h2>
 # Student Performance Tracker 🎓 (ภาษาไทย)
 
 แอปพลิเคชันบนเว็บที่ออกแบบมาให้มีความทันสมัยและตอบสนองได้ดีเยี่ยม สำหรับการติดตามงานที่มอบหมาย ผลการเรียน และคะแนนของนักเรียน สร้างขึ้นด้วย Frontend จาก React (Vite) และ Backend จาก Express.js โดดเด่นด้วย UI ระดับพรีเมียมพร้อมเอฟเฟกต์ Glassmorphism และแอนิเมชันที่ลื่นไหล
